@@ -1,0 +1,52 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*service*account*.json
+*firebase-adminsdk*.json
+credentials*.json
+secrets.*
+.pypirc
+.netrc
+
+# Python environments and generated output
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+out/
+.coverage*
+*.log
+.DS_Store
+Thumbs.db
+
+# Generated certificates and recipient data
+/Saves/
+/Saves 2/
+/Certificates.zip
+/Certificate Distribution List.txt
+
+# Generated certificate images; keep only the blank templates.
+/*.png
+!/Template.png
+!/Template 2.png
+
+# Local credentials and authentication/debug logs.
+secret.json
+secrets.json
+*.credentials.json
+.pypirc
+.netrc
